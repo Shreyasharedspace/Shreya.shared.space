@@ -1,56 +1,109 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Blog</title>
+  <title>My Ayurveda Blog</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background: #f5f5f5; 
+      background: linear-gradient(135deg, #fce4ec, #e8f5e9, #e3f2fd);
     }
+
     header {
-      background: #4CAF50;
-      color: white;
-      padding: 20px;
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+      color: #2e7d32;
+      padding: 40px 20px;
       text-align: center;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
     }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
     }
-    .post {
-      margin-bottom: 30px;
-    }
-    .post h2 {
-      color: #333;
-    }
-    .post p {
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      font-style: italic;
       color: #555;
     }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .post {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .post:hover {
+      transform: translateY(-5px);
+    }
+
+    .post img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    .post h2 {
+      margin-top: 0;
+      color: #2e7d32;
+    }
+
+    .post p {
+      color: #555;
+      line-height: 1.6;
+    }
+
     footer {
       text-align: center;
-      padding: 10px;
-      background: #ddd;
-      margin-top: 20px;
+      padding: 15px;
+      background: rgba(46, 125, 50, 0.9);
+      color: white;
+      margin-top: 30px;
     }
   </style>
 </head>
-<body><header>
+
+<body>
+
+<header>
   <h1>My Ayurveda Blog</h1>
-  <p>Daily tips for healthy living 🌿</p>
-</header><div class="container">
+  <p>Where ancient wisdom meets everyday healing ✨</p>
+</header>
+
+<div class="container">
+
   <div class="post">
+    <img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71" alt="Herbal Ayurveda">
     <h2>5 Easy Tips for Better Digestion</h2>
     <p>Start your day with warm water, include fiber-rich fruits like papaya, and avoid late-night eating. Ayurveda suggests small daily habits can improve digestion.</p>
-  </div>  <div class="post">
+  </div>
+
+  <div class="post">
+    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2" alt="Yoga Lifestyle">
     <h2>Simple Ayurvedic Routine</h2>
     <p>Wake up early, drink warm water, eat fresh food, and sleep on time. A balanced routine leads to a healthy body and mind.</p>
   </div>
-</div><footer>
+
+</div>
+
+<footer>
   <p>© 2026 My Blog | Made by You 💚</p>
-</footer></body>
+</footer>
+
+</body>
 </html>
